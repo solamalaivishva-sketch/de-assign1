@@ -7,6 +7,8 @@ orchestrated with Dagster.
 ## Architecture
 bronze (raw parquet, data/raw) → silver (cleaned parquet, data/silver) → gold (Postgres `gold` schema) → SQL views → Streamlit
 
+<img width="3676" height="3697" alt="assignment 1" src="https://github.com/user-attachments/assets/bd6f7fea-9a8f-43b3-a72b-586288346237" />
+
 | Layer | Tech | Code |
 |---|---|---|
 | Setup | Bash, Docker, curl | `setup.sh`, `docker-compose.yml` |
